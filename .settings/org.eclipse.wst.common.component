@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="qdeploy-maven-webapp">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="qdeploy-maven-plugin-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qdeploy-maven-plugin/qdeploy-maven-plugin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/qdeploy-maven-webapp/target/classes"/>
+        <property name="context-root" value="qdeploy"/>
+    </wb-module>
+</project-modules>
