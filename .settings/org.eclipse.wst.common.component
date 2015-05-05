@@ -7,7 +7,7 @@
         <dependent-module archiveName="qdeploy-maven-plugin-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qdeploy-maven-plugin/qdeploy-maven-plugin">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="java-output-path" value="/qdeploy-maven-webapp/target/classes"/>
         <property name="context-root" value="qdeploy"/>
+        <property name="java-output-path" value="/qdeploy-maven-webapp/target/classes"/>
     </wb-module>
 </project-modules>
